@@ -1,0 +1,47 @@
+/*Arquivo CSS da aula Desenvolvimento para Internet - Unipar 2025*/
+/*Reset CSS: importante para zerar todos os estilos já aplicados*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*Variáveis*/
+/*Posso salvar nas Variáveis, configurações que podem ser usadas globalmente no CSS*/
+:root{
+    --primari-color:blue;
+    --font-size:12px;
+}
+/*Componentes*/
+/*O que são componentes: Botões, Formulários, input's, select's, etc...*/
+button{
+    background-color: var(--primari-color); /*usando variáveis*/
+    font-size: var(--font-size);
+    color: azure;
+    padding: 2%;
+    height: 10%;
+    width: 50%;
+    min-height: 100px;
+    max-height: 500px;
+}
+
+
+/* ===== RESET DE ESTILO ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* ===== VARIÁVEIS ===== */
+  :root {
+    --primary-color: #0057ff;
+    --font-size: 16px;
+  }
+  
+  /* ===== COMPONENTES ===== */
+  .button {
+    background: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  
